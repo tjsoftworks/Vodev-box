@@ -1,0 +1,58 @@
+{
+  "name": "vagrant-vodevbox",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "varnish": {
+      "start": "no"
+    },
+ 	  "mysql": {
+    	"server_root_password": "",
+    	"server_repl_password": "",
+    	"server_debian_password": "",
+		  "bind_address": "127.0.0.1"
+  	},
+    "rvm": {
+      "global_gems": [
+        {
+          "name": "bundler"
+        },
+        {
+          "name": "rake",
+          "version": "0.9.2"
+        },
+        {
+          "name": "chef",
+          "version": "11.6.0"
+        },
+        {
+          "name": "passenger"
+        }
+      ],
+      "rubies": [
+        {
+          "version": "ree-1.8.7-2012.02",
+          "rubygems_version": "1.8.15"
+        }
+      ]
+    }
+  },
+  "description": "Ready to use VoDevBox VM",
+  "run_list": [
+    "recipe[git]",
+	  "recipe[mysql::server]",
+	  "recipe[sphinx]",
+	  "recipe[wkhtmltopdf]",
+    "recipe[redisio::install]",
+    "recipe[imagemagick::rmagick]",
+    "recipe[openssl]",
+    "recipe[geoip]",
+    "recipe[libmagic]",
+    "recipe[libcurl]",
+    "recipe[rvm::vagrant]",
+    "recipe[rvm::system]",
+    "recipe[varnish]"
+  ]
+}

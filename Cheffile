@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'rvm', :git => 'https://github.com/fnichol/chef-rvm'
+cookbook 'mysql'
+cookbook 'git'
+cookbook 'imagemagick'
+cookbook 'sphinx', '0.6.6'
+cookbook 'wkhtmltopdf'
+cookbook 'redisio', '~> 1.7.0'
+cookbook 'varnish'
+cookbook 'openssl'
+cookbook 'geoip'
+cookbook 'libmagic',
+  :git => 'git@github.com:froschi/chef-cookbook-libmagic.git'
+cookbook 'libcurl',
+  :git => 'git@github.com:theodi/chef-libcurl.git'
