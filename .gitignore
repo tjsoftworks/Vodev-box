@@ -1,3 +1,4 @@
 .DS_Store
 tmp/
 vodev-box
+cookbooks/
