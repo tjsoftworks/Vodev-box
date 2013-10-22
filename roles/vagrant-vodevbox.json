@@ -14,6 +14,11 @@
     	"server_debian_password": "",
 		  "bind_address": "127.0.0.1"
   	},
+    "sphinx":{
+      "use_mysql": true,
+      "install_method": "package",
+      "version": "2.0.8"
+    },
     "rvm": {
       "global_gems": [
         {
@@ -42,10 +47,12 @@
   "description": "Ready to use VoDevBox VM",
   "run_list": [
     "recipe[git]",
+    "recipe[ulimit]",
 	  "recipe[mysql::server]",
 	  "recipe[sphinx]",
 	  "recipe[wkhtmltopdf]",
     "recipe[redisio::install]",
+    "recipe[redisio::enable]",
     "recipe[imagemagick::rmagick]",
     "recipe[openssl]",
     "recipe[geoip]",

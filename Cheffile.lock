@@ -37,7 +37,7 @@ SITE
       percona (>= 0.0.0)
       postgresql (>= 0.0.0)
       yum (>= 0.0.0)
-    ulimit (0.3.1)
+    ulimit (0.2.0)
     varnish (0.9.10)
     windows (1.11.0)
       chef_handler (>= 0.0.0)
@@ -76,7 +76,8 @@ DEPENDENCIES
   openssl (>= 0)
   redisio (~> 1.7.0)
   rvm (>= 0)
-  sphinx (= 0.6.6)
+  sphinx (>= 0)
+  ulimit (= 0.2.0)
   varnish (>= 0)
   wkhtmltopdf (>= 0)
 
