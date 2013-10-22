@@ -17,7 +17,7 @@
     "sphinx":{
       "use_mysql": true,
       "install_method": "package",
-      "version": "2.0.8"
+      "version": "2.0.6"
     },
     "rvm": {
       "global_gems": [
@@ -54,6 +54,7 @@
     "recipe[redisio::install]",
     "recipe[redisio::enable]",
     "recipe[imagemagick::rmagick]",
+    "recipe[memcached]",
     "recipe[openssl]",
     "recipe[geoip]",
     "recipe[libmagic]",
