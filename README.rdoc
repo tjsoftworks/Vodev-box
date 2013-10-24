@@ -1,17 +1,16 @@
+== Description
+This project aims to help you setup a developper environnment by building a custom Vagrant box using Chef solo and using it with VirtualBox or VMware.
+The result is intended to use ONLY for developper environnment since it hasn't been secured at ALL.
+
 == Usage
 
-Read the wiki to learn how to use and setup vagrant box
 https://github.com/Vodeclic/Vodev-box/wiki
 
 == Maintainer
 
 * Guillaume Montard - https://github.com/gmontard
 
-== Contributors
-
-* Guillaume Montard - https://github.com/gmontard
-
-Special thanks to Cedric Fabianski for his help
+Special thanks to Cedric Fabianski (https://github.com/cfabianski) for his help
 
 == License
 
