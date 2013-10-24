@@ -10,7 +10,8 @@ https://github.com/Vodeclic/Vodev-box/wiki
 == Contributors
 
 * Guillaume Montard - https://github.com/gmontard
-* Cedric Fabianski - https://github.com/cfabianski
+
+Special thanks to Cedric Fabianski for his help
 
 == License
 
