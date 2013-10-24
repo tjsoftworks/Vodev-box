@@ -1,6 +1,7 @@
 == Usage
 
-[Read the wiki to learn how to use and setup vagrant box](https://github.com/Vodeclic/Vodev-box/wik)
+Read the wiki to learn how to use and setup vagrant box
+https://github.com/Vodeclic/Vodev-box/wiki
 
 == Maintainer
 
