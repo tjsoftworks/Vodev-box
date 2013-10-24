@@ -2,9 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure('2') do |config|
-  config.vm.box = "precise32"
-  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
-  config.vm.hostname = "vodev-box"
+  config.vm.box = "precise64-vmware"
+  config.vm.box_url = "http://files.vagrantup.com/precise64_vmware_fusion.box"
+  config.vm.hostname = "vodev-box-vmware"
 
   # This is to fix an issue with the postinstall.sh script
   # PostgreSQL was using LATIN1 instead of UTF-8 as a server_encoding value
