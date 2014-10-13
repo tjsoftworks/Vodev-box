@@ -1,6 +1,6 @@
 == Description
-This project aims to help you setup a developper environnment by building a custom Vagrant box using Chef solo and using it with VirtualBox or VMware.
-The result is intended to use ONLY for developper environnment since it hasn't been secured at ALL.
+This project aims to help you setup a developer environnment by building a custom Vagrant box using Chef solo and using it with VirtualBox or VMware.
+The result is intended to use ONLY for developer environnment since it hasn't been secured at ALL.
 
 == Usage
 
